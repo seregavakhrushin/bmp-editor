@@ -1,9 +1,13 @@
-ia prihel ynichtozhit etot mir
-ps. sergey mashina
 
+file *openFile (char *fileName, char *openAction) 
+{
+    /* Функция принимает строку, содержащую имя файла и строку наименования действия, производимого над файлом(чтение/запись);
+    Создает указатель на файл;
+    Открывает файл;
+    Возвращает указатель на файл; */
 
-1/ fynkcia chetenia faila
-2/ fnc zapisi fala v massiv 
-3/ rabochii kod
-4/zapis rezyltata v massiv
-5/vivod etogo massiva
+    file *inputFile = fopen(fileName, openAction);
+
+return inputFile;
+}
+
